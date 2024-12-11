@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+  s_docker_gradle:
+    container_name: c_docker_gradle
+    image: docker_gradle
+    restart: always
+    ports:
+      - 8011:8080

@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+  s_docker_dotnet:
+    container_name: c_docker_dotnet
+    image: docker_dotnet
+    restart: always
+    ports:
+      - 8016:8016

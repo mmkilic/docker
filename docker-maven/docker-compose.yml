@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+  s_spring_test:
+    container_name: c_test_spring
+    image: test_spring
+    restart: always
+    ports:
+      - 8010:8080
